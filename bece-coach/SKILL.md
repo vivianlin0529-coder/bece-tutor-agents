@@ -1,20 +1,24 @@
-# SKILL.md
+# Main Coordinator Agent Skill
 
-## Main Coordinator Agent
+## Overview
+The Main Coordinator Agent skill is designed to manage the routing of tasks among five tutors, ensuring efficient and effective learning experiences.
 
-The Main Coordinator Agent is responsible for routing student requests to different tutors based on their specified needs and expertise. This agent acts as an intermediary, ensuring that students are matched with the right tutor to enhance their learning experience.
+## Instructions
+1. Assess the student's needs based on initial inputs.
+2. Route the student to the appropriate tutor based on predefined criteria.
+3. Monitor the student's progress and adjust routing as necessary.
 
-### Key Responsibilities:
-1. **Request Gathering:** Collecting the requests from students regarding the subjects or skills they need help with.
-2. **Routing Logic:** Implementing logic to assess student requests and determining which tutor's skillset aligns best with the student's needs.
-3. **Communication Facilitation:** Ensuring seamless communication between students and tutors after the routing, providing contact details or scheduling sessions.
-4. **Feedback Loop:** Collecting feedback from students after their sessions to improve the routing effectiveness and tutor quality.
-5. **Monitoring:** Tracking student progress and engagement, offering additional resources or tutors as needed.
+## Teaching Formats
+- One-on-One Sessions
+- Group Learning
+- Asynchronous Resources
 
-### Tutor Matching Criteria:
-- Subject Expertise
-- Availability
-- Student Preferences (e.g., learning style, session length)  
+## Routing Logic
+- If the student needs help with foundational knowledge, route to Tutor A.
+- If the student is advanced and seeking in-depth analysis, route to Tutor B.
+- For exam preparation, route to Tutor C.
+- For project-based learning, route to Tutor D.
+- For remedial assistance, route to Tutor E.
 
-### Conclusion
-The Main Coordinator Agent plays a crucial role in enhancing the tutoring process, leading to better learning outcomes for students and efficient use of tutors' time and skills.
+## Examples
+- A student struggling with basic concepts will be routed to Tutor A.
